@@ -89,7 +89,7 @@ export const PageHead = ({ seoTitle, seoDescription, seoImage }) => {
         })()}
         crossOrigin="anonymous"
       />
-      <link rel="icon" href="/favicon-32.png" type="image/png" />
+      <link rel="icon" href="/MotileoFavicon.png" type="image/png" />
       {pwaIconSizes.map((size) => (
         <link
           key={`icon-${size}`}
